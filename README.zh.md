@@ -1,14 +1,15 @@
 # CC-GO
-English | [简体中文](./README.zh.md)
+ 
+简体中文 | [English](https://github.com/RAYNBINGHAN3/cc-go)
+ 
+基于goroutine的简单CC脚本.
 
-Script to perform a CC DDOS by Go (for test only)
+## 使用方式
 
-## Usage
-
-From terminal:
+命令行:
 `go run main.go http://127.0.0.1/ccgo  -w 500 -t 20`
 
-## Parameters
+## 参数
 
 <pre>
 Flags:
@@ -17,9 +18,9 @@ Flags:
   -w, --worker string   The number of worker threads executing concurrently (default "100")
 </pre>
 
-## Requirements
+## 版本要求
 - Go 1.12 version or greater
 
-## Disclaimer
+## 免责申明
 
-This tool is written for educational purpose only, **please** use it on your own good faith.
+此代码只作为编程交流学习使用，请勿用于任何非法用途
